@@ -4,8 +4,7 @@
 1. Clone the repository
 2. Install dependencies
 ```shell
-npm install --save-dev parcel
-npm install react react-dom
+npm install
 ```
 3. Run locally using parcel: ```shell npx parcel src/index.html ```
 
