@@ -7,7 +7,7 @@
 npm install --save-dev parcel
 npm install react react-dom
 ```
-3. Run locally using parcel: npx parcel src/index.html
+3. Run locally using parcel: ```shell npx parcel src/index.html ```
 
 ## Contributors
 - Dalia Sebat [@dalidog](https://github.com/dalidog)
