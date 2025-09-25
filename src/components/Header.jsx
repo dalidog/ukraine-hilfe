@@ -17,13 +17,13 @@ function Header() {
                         <span className="title-highlight"></span>
                     </>
                 );
-            // case '/uk':
-            //     return (
-            //         <>
-            //             <span className="title-main">Cardiovascular Diseases: UK</span>
-            //             <span className="title-highlight"></span>
-            //         </>
-            //     );
+            case '/about':
+                return (
+                    <>
+                        <span className="title-main">About</span>
+                        <span className="title-highlight"></span>
+                    </>
+                );
             default:
                 return <span className="title-single">UkraineHilfe</span>;
         }
@@ -45,11 +45,11 @@ function Header() {
                                 Home
                             </NavLink>
                         </li>
-                        {/* <li className="menu-item">
-                            <NavLink to="/uk" className="menu-link" activeClassName="active">
-                                UK Map
+                        <li className="menu-item">
+                            <NavLink to="/about" className="menu-link" activeclassname="active">
+                                About
                             </NavLink>
-                        </li> */}
+                        </li>
                     </ul>
                 </nav>
             </div>
