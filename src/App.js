@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Header from './components/Header';
 import About from './pages/About';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Social from './pages/Social';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} /> {/* Add route to About page */}
+                        <Route path="/social" element={<Social />} />
                     </Routes>
                 </div>
             </BrowserRouter>
