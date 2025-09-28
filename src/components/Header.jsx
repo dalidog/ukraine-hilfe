@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import '../styles/Header.css';
+import logoUrl from 'url:./logo.jpeg';
+console.log('logo =', logoUrl);
 
 function Header() {
     const location = useLocation();
@@ -32,6 +34,7 @@ function Header() {
     return (
         <header className="header">
             <div className="logo-container">
+                <img src={logoUrl} alt="Logo" width={100} height={80} />
                 <button className="logo-text" type="button" onClick={refresh}>
                     Ukraine Hilfe
                 </button>
