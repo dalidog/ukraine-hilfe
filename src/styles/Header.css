@@ -185,6 +185,50 @@ p {
     filter: brightness(0.95);
 }
 
+/* About page box layout */
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 40px 40px auto 40px;
+    max-width: 2000px;
+    text-align: center;
+}
+
+.about-box {
+    flex: 1;
+    padding: 20px;
+    background: rgba(249, 248, 255, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-box p {
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #000000;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.about-box h3 {
+    padding-top: 0px;
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.about-box a:link {
+    color: #002afd;
+}
+
+.about-box a:visited {
+    color: #350097;
+}
+
+
+
 html {
     scroll-behavior: smooth;
     /* Optional: makes scrolling smooth */
