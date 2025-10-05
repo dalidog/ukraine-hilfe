@@ -6,7 +6,7 @@
 ```shell
 npm install
 ```
-3. Run locally using parcel: ```shell npx parcel src/index.html ```
+3. Run locally using parcel: ```npx parcel src/index.html ```
 
 ## Contributors
 - Dalia Sebat [@dalidog](https://github.com/dalidog)
