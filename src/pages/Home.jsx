@@ -20,7 +20,7 @@ function Home() {
                     <br></br><br></br>
                     <a
                         className="paypal-button"
-                        href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ukrainehilfe.e.v%40gmx.de&item_name=Ukraine-Hilfe+Berlin+e.V.&currency_code=EUR&source=url"
+                        href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ukrainehilfe.e.v%40gmx.de&item_name=Ukraine-Hilfe-e.V.&currency_code=EUR&source=url"
                         target="_blank" rel="noopener"
                     >
                         Click Here
