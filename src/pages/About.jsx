@@ -1,8 +1,15 @@
 import React from 'react';
+import imgurl1 from 'url:../images/War_3.jpeg';
+import imgurl2 from 'url:../images/War_4.jpeg';
+import imgurl3 from 'url:../images/war_8.jpeg';
+import imgurl4 from 'url:../images/Impact_8.jpeg';
+import imgurl5 from 'url:../images/Impacts 7.jpeg';
+import imgurl6 from 'url:../images/Impact_6.jpeg';
 
 function About() {
     return (
         <>
+            <h2>Our Story</h2>
             <div className="about-container">
                 <div className="about-box">
                     <h3>HOW IT BEGAN</h3>
@@ -24,96 +31,106 @@ function About() {
                         Outside of Ukraine, people witnessing these atrocities too started to come together to find inventive ways to fight the war from afar through monetary donations and humanitarian aid. However, while aid comes in abundance from all over the world, it crucially requires a reliable transportation to the location from the outside and within the country. Observing the flow of resources, the Russian army has turned to blocking the humanitarian supply chains-- yet another a war crime-- through the indiscriminate target of any moving vehicle, from ambulances (10), to civilian cars (9), to even cyclists (13)(14), with drones. Because of this, the need for any vehicle is dire and constantly requested by the Ukrainian brigades on the front lines.</p>
                 </div>
             </div>
+            <div className="about-images">
+                <img src={imgurl1} alt="" className="about-img" />
+                <img src={imgurl2} alt="" className="about-img" />
+                <img src={imgurl3} alt="" className="about-img" />
+            </div>
             <div className="about-container">
                 <div className="about-box">
                     <h3>ABOUT US</h3>
                     <p>From the very early days of the invasion Igor, founder of <i>Ukraine-Hilfe</i>, began collecting money for the purchase and transport of SUVs to the requested locations. He would travel on his own accord and drive the car to across multiple countries in trip to reach the Polish border. The next day, he would travel non-stop from Western Ukraine to the war zone in Eastern Ukraine. Before opening this charity, Igor and his close family and friends had, on their own funds and time, successfully delivered nearly a hundred cars including some ambulances-- potentially saving upon hundreds of lives. However, understanding that the demand for vehicles in Ukraine is much higher than his sole capabilities, Igor moved forward to start <i>Ukraine-Hilfe</i> with the aim of raising revenue and resources for this purpose. <i>Ukraine-Hilfe</i> became an official charity on January 31, 2025.</p>
                 </div>
             </div>
+            <div className="about-images">
+                <img src={imgurl4} alt="" className="about-img" />
+                <img src={imgurl5} alt="" className="about-img" />
+                <img src={imgurl6} alt="" className="about-img" />
+            </div>
             <h3>SOURCES</h3>
             <ol type="1">
                 <li id="source1">
-                    <a href="https://www.cnn.com/2022/02/24/europe/ukraine-russia-attack-timeline-intl#:~:text=Here's%20what%20we%20know%20about%20how%20Russia's%20invasion%20of%20Ukraine%20unfolded&text=Russia%20launched%20an%20invasion%20of,Here's%20how%20it%20unfolded."
+                    <a href="https://www.cnn.com/2022/02/24/europe/ukraine-russia-attack-timeline-intl#:~:text=Here's%20what%20we%20know%20about%20how%20Russia's%20invasion%20of%20Ukraine%20unfolded&text=Russia%20launched%20an%20invasion%20of,Here's%20how%20it%20unfolded"
                         target="_blank" rel="noopener noreferrer"
-                        title="CNN coverage of the first days of Russia's invasion of Ukraine">CNN - First days of the invasion</a>
+                        title="Here’s what we know about how Russia’s invasion of Ukraine unfolded">Here’s what we know about how Russia’s invasion of Ukraine unfolded</a>
                 </li>
 
                 <li id="source2">
                     <a href="https://www.bbc.com/news/articles/cgkm7lly61do"
                         target="_blank" rel="noopener noreferrer"
-                        title="BBC report on Russian soldier deaths by month">BBC - Russian Soldier Death by Month</a>
+                        title="Invisible Losses: Tens of thousands fighting for Russia are dying unnoticed on the frontline in Ukraine">Invisible Losses: Tens of thousands fighting for Russia are dying unnoticed on the frontline in Ukraine</a>
                 </li>
 
                 <li id="source3">
-                    <a href="https://www.npr.org/2022/04/20/1093760280/ukraine-refugees-5-million#:~:text=More%20than%202%20million%20people,countries%20like%20Romania%20and%20Hungary."
+                    <a href="https://www.npr.org/2022/04/20/1093760280/ukraine-refugees-5-million#:~:text=More%20than%202%20million%20people,countries%20like%20Romania%20and%20Hungary"
                         target="_blank" rel="noopener noreferrer"
-                        title="NPR report on civilian refugees fleeing Ukraine">NPR - How many civilians fled</a>
+                        title="The number of people fleeing Ukraine has surpassed 5 million">The number of people fleeing Ukraine has surpassed 5 million</a>
                 </li>
 
                 <li id="source4">
                     <a href="https://www.unrefugees.org/news/twice-displaced-by-war-in-ukraine-but-refusing-to-give-up/"
                         target="_blank" rel="noopener noreferrer"
-                        title="UNHCR story on the Ukrainian refugee crisis">USA for UNHCR - The UN Refugee Crisis</a>
+                        title="Twice displaced by war in Ukraine, but refusing to give up">Twice displaced by war in Ukraine, but refusing to give up</a>
                 </li>
 
                 <li id="source5">
                     <a href="https://www.cbc.ca/news/world/ukraine-farmers-1.6387964"
                         target="_blank" rel="noopener noreferrer"
-                        title="CBC story on Ukrainian farmers towing tanks">CBC - Farmers and tanks</a>
+                        title="Famous for towing captured Russian tanks, Ukrainian farmers step up for war effort">Famous for towing captured Russian tanks, Ukrainian farmers step up for war effort</a>
                 </li>
 
                 <li id="source6">
                     <a href="https://www.reuters.com/video/watch/ukrainian-musicians-hold-concert-in-metr-idOV796328032022RP1/"
                         target="_blank" rel="noopener noreferrer"
-                        title="Reuters video of an underground concert in Ukraine">Reuters - Underground concert</a>
+                        title="Ukrainian musicians hold concert in metro shelter">Ukrainian musicians hold concert in metro shelter</a>
                 </li>
 
                 <li id="source7">
                     <a href="https://www.cnn.com/2024/02/12/europe/ukraine-children-school-underground-russia-intl"
                         target="_blank" rel="noopener noreferrer"
-                        title="CNN coverage of schools operating underground in Ukraine">CNN - Schools underground</a>
+                        title="‘We won’t hear the bangs’: Ukrainian city moves schools into metro stations">‘We won’t hear the bangs’: Ukrainian city moves schools into metro stations</a>
                 </li>
 
                 <li id="source8">
                     <a href="https://www.theguardian.com/world/2023/sep/27/ukraine-kharkiv-children-school-class-metro-subway-stations-underground"
                         target="_blank" rel="noopener noreferrer"
-                        title="The Guardian article on Kharkiv's underground schools">The Guardian - Schools underground</a>
+                        title="Subway schooling: the Ukrainian children taking class in metro stations">Subway schooling: the Ukrainian children taking class in metro stations</a>
                 </li>
 
                 <li id="source9">
                     <a href="https://www.hrw.org/news/2022/05/02/ukraine-russian-forces-fired-civilian-vehicles"
                         target="_blank" rel="noopener noreferrer"
-                        title="Human Rights Watch report on attacks on civilian vehicles">Human Rights Watch - Civilian vehicles</a>
+                        title="Ukraine: Russian Forces Fired On Civilian Vehicles">Ukraine: Russian Forces Fired On Civilian Vehicles</a>
                 </li>
 
                 <li id="source10">
-                    <a href="https://www.hrw.org/news/2022/05/02/ukraine-russian-forces-fired-civilian-vehicles"
+                    <a href="https://www.aljazeera.com/features/2025/7/30/they-chase-ambulances-russias-record-attacks-on-ukraines-healthcare"
                         target="_blank" rel="noopener noreferrer"
-                        title="Al Jazeera coverage of ambulance attacks in Ukraine">Al Jazeera - Ambulances</a>
+                        title="‘They chase ambulances:’ Russia’s ‘record’ attacks on Ukraine’s healthcare">‘They chase ambulances:’ Russia’s ‘record’ attacks on Ukraine’s healthcare</a>
                 </li>
 
                 <li id="source11">
                     <a href="https://www.britannica.com/event/2022-Russian-invasion-of-Ukraine"
                         target="_blank" rel="noopener noreferrer"
-                        title="Britannica summary of the Russian invasion of Ukraine">Britannica - Whole history of the war</a>
+                        title="Britannica summary of the Russian invasion of Ukraine">Britannica summary of the Russian invasion of Ukraine</a>
                 </li>
 
                 <li id="source12">
-                    <a href="https://www.theguardian.com/world/2022/apr/26/russia-accused-of-shelling-mariupol-humanitarian-corridor#:~:text=Daniel%20Boffey%20in%20Brussels%20and,even%20a%20fly%20comes%20through%E2%80%9D."
+                    <a href="https://www.theguardian.com/world/2022/apr/26/russia-accused-of-shelling-mariupol-humanitarian-corridor#:~:text=Daniel%20Boffey%20in%20Brussels%20and,even%20a%20fly%20comes%20through%E2%80%9D"
                         target="_blank" rel="noopener noreferrer"
-                        title="The Guardian report on Mariupol humanitarian corridor shelling">The Guardian - Mariupol humanitarian corridor</a>
+                        title="Russia accused of shelling Mariupol humanitarian corridor">TRussia accused of shelling Mariupol humanitarian corridor</a>
                 </li>
 
                 <li id="source13">
                     <a href="https://gwaramedia.com/en/russian-fpv-drone-killed-civilian-riding-bicycle-in-kharkiv-oblast/"
                         target="_blank" rel="noopener noreferrer"
-                        title="Gwara Media report on Kharkiv cyclist killed by drone">Gwara Media - Kherson Cyclist</a>
+                        title="Russian FPV drone killed civilian riding bicycle in Kharkiv Oblast">Russian FPV drone killed civilian riding bicycle in Kharkiv Oblast</a>
                 </li>
 
                 <li id="source14">
                     <a href="https://mezha.net/eng/bukvy/russian-drone-attack-kills-cyclist-in-kherson-on-july-11/#:~:text=On%20July%2011%2C%20in%20the,a%20result%20of%20this%20incident."
                         target="_blank" rel="noopener noreferrer"
-                        title="Mezha report on Kherson cyclist killed by drone">Mezha - Kherson Cyclist</a>
+                        title="Russian Drone Attack Kills Cyclist in Kherson on July 11">Russian Drone Attack Kills Cyclist in Kherson on July 11</a>
                 </li>
             </ol>
         </>

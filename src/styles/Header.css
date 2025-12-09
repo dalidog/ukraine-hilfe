@@ -30,7 +30,7 @@ body,
     display: flex;
     align-items: center;
     background-color: var(--blue);
-    padding: 0 40px;
+    padding-right: 40px;
     height: 100px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -68,13 +68,14 @@ body,
 
 .logo-container {
     display: flex;
-    gap: 16px;
+    gap: 0px;
     flex-shrink: 0;
     z-index: 2;
     margin-left: 0px;
     /* Increased from 60px */
     margin-right: auto;
     /* Pushes title to center */
+    padding: 10px;
 }
 
 .logo-text {
@@ -84,7 +85,7 @@ body,
     font-size: 1.5rem;
     font-weight: 500;
     cursor: pointer;
-    padding: 1px;
+    padding: 20px;
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
@@ -120,7 +121,7 @@ ol {
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ukraineprotest.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0.5)), url("ukraineprotest.webp");
     background-color: #cccccc;
 }
 
@@ -131,15 +132,6 @@ p {
 }
 
 /* Donation box */
-
-.donation-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    margin: 40px auto;
-    max-width: 1000px;
-    text-align: center;
-}
 
 .donation-box {
     flex: 1;
@@ -156,7 +148,7 @@ p {
 
 .donation-box h3 {
     padding-top: 0px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #000000;
     margin-bottom: 5px;
 }
@@ -165,7 +157,7 @@ p {
     padding-left: 10%;
     padding-right: 10%;
     color: #000000;
-    font-size: 0.95rem;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -177,7 +169,7 @@ p {
     color: #111;
     font-weight: 700;
     text-decoration: none;
-    padding: 10px 18px;
+    padding: 18px 36px;
     border-radius: 30px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 }
@@ -215,9 +207,15 @@ p {
 
 .about-box h3 {
     padding-top: 0px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #000000;
     margin-bottom: 5px;
+}
+
+.about-box li {
+    font-size: 0.92rem;
+    color: #000000;
+    text-align: left;
 }
 
 .about-box a:link {
@@ -228,9 +226,199 @@ p {
     color: #350097;
 }
 
+.donate-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.donate-img-wrapper {
+    flex: 1 1 250px;
+    max-width: 300px;
+    aspect-ratio: 5 / 3;
+    /* same ratio for all */
+    overflow: hidden;
+}
+
+.donate-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* keeps correct aspect ratio */
+}
+
+.donation-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    padding: 50 50;
+    /* no horizontal padding */
+    padding-top: 30px;
+    /* keep vertical spacing */
+    padding-bottom: 30px;
+    flex-direction: row;
+    /* ← grow sideways first */
+    flex-wrap: wrap;
+    /* ← only wrap when needed */
+    justify-content: center;
+    /* center the cards */
+    align-items: flex-start;
+}
+
+.paypal-box {
+    text-align: center !important;
+    flex: 1;
+    /* 1/3 width */
+}
+
+.bank-box {
+    flex: 2;
+    /* 2/3 width */
+    text-align: left !important;
+}
+
+.bank-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* two equal columns */
+    gap: 0px;
+    margin-top: 10px;
+}
+
+.bank-column p {
+    margin: 0;
+}
+
+.bank-column p em {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    display: block;
+    text-align: center;
+}
+
+/* Responsive stack on mobile */
+@media (max-width: 800px) {
+    .donation-container {
+        flex-direction: column;
+    }
+
+    .bank-columns {
+        grid-template-columns: 1fr;
+        /* single column on small screens */
+    }
+}
+
+.button-icon {
+    width: 100px;
+    /* change this to any size you want */
+    height: 28px;
+    /* keep square unless you want distortion */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.hero {
+    position: relative;
+    height: 250px;
+    background: black;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    position: relative;
+    text-align: center;
+    max-width: 700px;
+    padding: 0 2rem;
+    z-index: 3;
+    margin-top: 5px;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .flowers {
+        opacity: 0.5;
+        height: 120px;
+        bottom: -20px;
+    }
+
+    .hero-image {
+        opacity: 0.0;
+    }
+
+}
+
+.flowers {
+    position: absolute;
+    bottom: -10px;
+    height: 220px;
+    z-index: 2;
+}
+
+.flowers.left {
+    left: -40px;
+}
+
+.flowers.right {
+    right: -40px;
+}
+
+.hero-images {
+    flex-direction: row;
+}
+
+.about-images {
+    outline: 4px solid black;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+
+    width: 100%;
+    max-width: 100%;
+    overflow: clip;
+}
+
+.about-images img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-image {
+    width: 200px;
+    max-width: 80%;
+    height: auto;
+}
+
+.hero-flowers {
+    width: 300px;
+    max-width: 80%;
+    height: auto;
+}
 
 
 html {
     scroll-behavior: smooth;
-    /* Optional: makes scrolling smooth */
+}
+
+html,
+body {
+    overflow-x: hidden;
 }

@@ -1,8 +1,7 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import '../styles/Header.css';
-import logoUrl from 'url:./logo.jpeg';
-console.log('logo =', logoUrl);
+import logoUrl from 'url:../images/logo_circle.png';
 
 function Header() {
     const location = useLocation();
@@ -26,6 +25,20 @@ function Header() {
                         <span className="title-highlight"></span>
                     </>
                 );
+            case '/donations':
+                return (
+                    <>
+                        <span className="title-main">Donations</span>
+                        <span className="title-highlight"></span>
+                    </>
+                );
+            // case '/past-projects':
+            //     return (
+            //         <>
+            //             <span className="title-main">Past Projects</span>
+            //             <span className="title-highlight"></span>
+            //         </>
+            //     );
             default:
                 return <span className="title-single">UkraineHilfe</span>;
         }
@@ -34,7 +47,7 @@ function Header() {
     return (
         <header className="header">
             <div className="logo-container">
-                <img src={logoUrl} alt="Logo" width={100} height={80} />
+                <img src={logoUrl} alt="Logo" width={80} height={80} />
                 <button className="logo-text" type="button" onClick={refresh}>
                     Ukraine Hilfe
                 </button>
@@ -53,6 +66,16 @@ function Header() {
                                 About
                             </NavLink>
                         </li>
+                        <li className="menu-item">
+                            <NavLink to="/donations" className="menu-link" activeclassname="active">
+                                Donations
+                            </NavLink>
+                        </li>
+                        {/* <li className="menu-item">
+                            <NavLink to="/past-work" className="menu-link" activeclassname="active">
+                                Past Work
+                            </NavLink>
+                        </li> */}
                     </ul>
                 </nav>
             </div>
