@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import '../styles/Header.css';
 import logoUrl from 'url:../images/logo_circle.png';
-import logoUrl from 'url:../images/logo_circle.png';
 
 function Header() {
     const location = useLocation();
