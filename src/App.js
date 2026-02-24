@@ -7,6 +7,11 @@ import PastProjects from './pages/PastProjects';
 import leftFlowers from 'url:./images/Flowers_1.png';
 import imgurl2 from 'url:./images/Slava_Ukraini.png';
 import rightFlowers from 'url:./images/Flowers_2.png';
+import Donate from './pages/Donate';
+import PastProjects from './pages/PastProjects';
+import leftFlowers from 'url:./images/Flowers_1.png';
+import imgurl2 from 'url:./images/Slava_Ukraini.png';
+import rightFlowers from 'url:./images/Flowers_2.png';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -36,6 +41,8 @@ function App() {
                         <Route path="/past-work" element={<PastProjects />} />
                     </Routes>
                 </div>
+            </BrowserRouter >
+        </div >
             </BrowserRouter >
         </div >
     );

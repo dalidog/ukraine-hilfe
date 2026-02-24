@@ -1,5 +1,5 @@
 # ukraine-hilfe
-
+Deployed at https://ukraine-hilfe-ev.de/
 ## Installation
 1. Clone the repository
 2. Install dependencies
