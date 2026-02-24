@@ -49,7 +49,6 @@ function Header() {
         <header className="header">
             <div className="logo-container">
                 <img src={logoUrl} alt="Logo" width={80} height={80} />
-                <img src={logoUrl} alt="Logo" width={80} height={80} />
                 <button className="logo-text" type="button" onClick={refresh}>
                     Ukraine Hilfe
                 </button>
