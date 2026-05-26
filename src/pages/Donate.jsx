@@ -42,9 +42,9 @@ function Donate() {
                     </div>
                 </div>
             </div>
-            <div className="about-container">
+            <div className="donate-container">
                 <div className="youtube-img-wrapper">
-                    <div className="about-box">
+                    <div className="donate-box">
                         <a
                             href="https://www.youtube.com/@Ukraine-Hilfe-BadHomburg"
                             target="_blank"

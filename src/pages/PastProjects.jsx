@@ -40,6 +40,25 @@ import imgurl31 from 'url:../images/past_work/proj7_4.jpeg';
 import imgurl32 from 'url:../images/past_work/proj8_1.jpeg';
 import imgurl33 from 'url:../images/past_work/proj8_2.jpeg';
 
+import imgurl34 from 'url:../images/past_work/proj9_1.jpeg';
+import imgurl35 from 'url:../images/past_work/proj9_2.jpeg';
+import imgurl36 from 'url:../images/past_work/proj9_3.jpeg';
+import imgurl37 from 'url:../images/past_work/proj9_4.jpeg';
+import imgurl38 from 'url:../images/past_work/proj9_5.jpeg';
+
+import imgurl39 from 'url:../images/past_work/proj10_1.jpeg';
+import imgurl40 from 'url:../images/past_work/proj10_2.jpeg';
+import imgurl41 from 'url:../images/past_work/proj10_3.jpeg';
+import imgurl42 from 'url:../images/past_work/proj10_4.jpeg';
+
+
+import imgurl43 from 'url:../images/past_work/proj11_1.png';
+import imgurl44 from 'url:../images/past_work/proj11_2.jpg';
+import imgurl45 from 'url:../images/past_work/proj11_3.jpg';
+import imgurl46 from 'url:../images/past_work/proj11_4.jpg';
+import imgurl47 from 'url:../images/past_work/proj11_5.jpg';
+import imgurl48 from 'url:../images/past_work/proj11_6.png';
+import imgurl49 from 'url:../images/past_work/proj11_7.jpeg';
 
 import Carousel from "../components/ui/Carousel";
 
@@ -96,10 +115,81 @@ function PastProjects() {
         { type: "image", src: imgurl33, alt: "Project 8 Img 2" },
     ]
 
+    const slides9 = [
+        { type: "image", src: imgurl34, alt: "Project 9 Img 1" },
+        { type: "image", src: imgurl35, alt: "Project 9 Img 2" },
+        { type: "image", src: imgurl36, alt: "Project 9 Img 3" },
+        { type: "image", src: imgurl37, alt: "Project 9 Img 4" },
+        { type: "image", src: imgurl38, alt: "Project 9 Img 5" },
+    ]
+
+    const slides10 = [
+        { type: "image", src: imgurl39, alt: "Project 10 Img 1" },
+        { type: "image", src: imgurl40, alt: "Project 10 Img 2" },
+        { type: "image", src: imgurl41, alt: "Project 10 Img 3" },
+        { type: "image", src: imgurl42, alt: "Project 10 Img 4" },
+    ]
+
+    const slides11 = [
+        { type: "image", src: imgurl43, alt: "Project 11 Img 1" },
+        { type: "image", src: imgurl44, alt: "Project 11 Img 2" },
+        { type: "image", src: imgurl45, alt: "Project 11 Img 3" },
+        { type: "image", src: imgurl46, alt: "Project 11 Img 4" },
+        { type: "image", src: imgurl47, alt: "Project 11 Img 5" },
+        { type: "image", src: imgurl48, alt: "Project 11 Img 6" },
+        { type: "image", src: imgurl49, alt: "Project 11 Img 7" },
+    ]
+
+
 
     return (
         <section>
             <h2 className="text-2xl font-semibold mb-4 text-center">Past Work</h2>
+            <div className="project-container">
+                <div className="project-box">
+                    <div className="project-media">
+                        <Carousel slides={slides11} />
+                    </div>
+                    <div className="project-text">
+                        <div className="project-date">April 2026</div>
+                        <p>
+                        Ukraine-Hilfe has brought another small convoy to Ukraine. While traveling through Germany, we loaded fire extinguishers, which were eventually delivered to our friends in the 127th Brigade in the Kharkiv region.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="project-container">
+                <div className="project-box">
+                    <div className="project-media">
+                        <Carousel slides={slides10} />
+                    </div>
+                    <div className="project-text">
+                        <div className="project-date">April 2026</div>
+                        <p>
+                        This almost-new quadricycle is about to be delivered to our friends in the 127th Territorial Defence, who are fighting in the Kupjansk direction. The truck carrying the quad will then join a different unit nearby.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="project-container">
+                <div className="project-box">
+                    <div className="project-media">
+                        <Carousel slides={slides9} />
+                    </div>
+                    <div className="project-text">
+                        <div className="project-date">March 2026</div>
+                        <p>
+                            Together with Adolf-Reichwein-Gymnasium, Ukraine-Hilfe e.V. hosted a panel discussion featuring two members of the German Parliament, Omid Nouripour and Markus Koob, the former serving as a Vice President of the Bundestag. Other guests included Boris Zimin, a business investor, as well as Igor Tartakovski, the chairman of our organization. We were particularly honored to have two officers of the Ukrainian Defence Forces join us via video conference.
+
+                            The discussion addressed a wide range of topics, from the origins of Russia’s aggression against Ukraine to the positioning of Germany and other countries in response to rapidly evolving security threats, as well as the most urgent current needs on the front lines. Approximately 300 students attended the event and engaged actively by asking additional questions to the panel.
+
+                            Recordings of parts of the event (with English subtitles) are available on our <a href="https://www.youtube.com/@Ukraine-Hilfe-BadHomburg"
+                                target="_blank" rel="noopener noreferrer"
+                            >YouTube channel</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div className="project-container">
                 <div className="project-box">
                     <div className="project-media">

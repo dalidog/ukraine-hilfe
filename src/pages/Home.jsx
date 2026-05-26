@@ -3,7 +3,6 @@ import Header from '../components/Header';
 
 import { NavLink } from 'react-router-dom';
 import logoUrl from 'url:../images/PayPal.svg.png';
-import logoUrl from 'url:../images/PayPal.svg.png';
 
 function Home() {
     const [showSRM, setShowSRM] = useState(false);

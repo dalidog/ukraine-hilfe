@@ -48,9 +48,9 @@ function Header() {
         <header className="header">
             <div className="logo-container">
                 <img src={logoUrl} alt="Logo" width={80} height={80} />
-                <button className="logo-text" type="button" onClick={refresh}>
+                <NavLink to="/" className="logo-text">
                     Ukraine Hilfe
-                </button>
+                </NavLink>
             </div>
 
             <div className="menu-container">

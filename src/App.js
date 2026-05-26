@@ -12,7 +12,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
     return (
         <div>
-            <BrowserRouter>
                 <Header />
                 <div className="hero">
                     <div className="hero-center">
@@ -36,7 +35,6 @@ function App() {
                         <Route path="/past-work" element={<PastProjects />} />
                     </Routes>
                 </div>
-            </BrowserRouter >
         </div >
     );
 }
