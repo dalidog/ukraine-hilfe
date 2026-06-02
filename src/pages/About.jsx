@@ -13,7 +13,6 @@ function About() {
             <div className="about-container">
                 <div className="about-box">
                     <h3>HOW IT BEGAN</h3>
-                    <br></br><br></br>
                     <p>Putin began his invasion of Ukraine on February 24 2022. 190,000 Russian troops began flooding into the country in tanks from Belarus, Kharkiv, and Crimea (11).
 
                         While Zelensky turned to his allys for help, they responded with confusion, panic, and fear. Arguments of “Why is this happening?”, “Who is to blame?”, and “Who is right?” paralyzed the world from action when it was needed most.

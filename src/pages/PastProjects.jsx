@@ -144,7 +144,7 @@ function PastProjects() {
 
     return (
         <section>
-            <h2 className="text-2xl font-semibold mb-4 text-center">Past Work</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-center">Past Projects</h2>
             <div className="project-container">
                 <div className="project-box">
                     <div className="project-media">
@@ -153,7 +153,7 @@ function PastProjects() {
                     <div className="project-text">
                         <div className="project-date">April 2026</div>
                         <p>
-                        Ukraine-Hilfe has brought another small convoy to Ukraine. While traveling through Germany, we loaded fire extinguishers, which were eventually delivered to our friends in the 127th Brigade in the Kharkiv region.
+                            Ukraine-Hilfe has brought another small convoy to Ukraine. While traveling through Germany, we loaded fire extinguishers, which were eventually delivered to our friends in the 127th Brigade in the Kharkiv region.
                         </p>
                     </div>
                 </div>
@@ -166,7 +166,7 @@ function PastProjects() {
                     <div className="project-text">
                         <div className="project-date">April 2026</div>
                         <p>
-                        This almost-new quadricycle is about to be delivered to our friends in the 127th Territorial Defence, who are fighting in the Kupjansk direction. The truck carrying the quad will then join a different unit nearby.
+                            This almost-new quadricycle is about to be delivered to our friends in the 127th Territorial Defence, who are fighting in the Kupjansk direction. The truck carrying the quad will then join a different unit nearby.
                         </p>
                     </div>
                 </div>
@@ -227,7 +227,7 @@ function PastProjects() {
                     <div className="project-text">
                         <div className="project-date">June 2025</div>
                         <p>
-                            A truckload of mask nets and potable water was delivered to the 93 Brigade.
+                            A truckload of mask nets and potable water were delivered to the 93rd Brigade.
                         </p>
                     </div>
                 </div>
@@ -240,7 +240,9 @@ function PastProjects() {
                     <div className="project-text">
                         <div className="project-date">April 2025</div>
                         <p>
-                            A truck was delivered to 93 OMBr Kholodny Yar. Please visit the Facebook page of our partner organization Techno Varta for the story of garage inspection and fitting the very same car:
+                            A truck was delivered to the 93rd Mechanized Brigade. To learn more about the garage
+                            inspection and fitting of the vehicle, please visit our partner organization Techno Varta’s
+                            Facebook page:
                             (<a href="https://www.facebook.com/share/v/1BjxBR8QLa/"
                                 target="_blank" rel="noopener noreferrer"
                             >1</a>,
@@ -249,8 +251,11 @@ function PastProjects() {
                             >2</a>)
                         </p>
                         <p>
-                            The Letter by the Commander of 93 Brigade Shamil Krutkow reads:
-                            The officers and the staff of the military unit A1302 are grateful for the assistance you have provided. Undoubtely, the civil position you take, your hard and selfless work are a substantial contribution to the fighting capacity of the Ukrainian Armed Forces.
+                            The letter written from the commander of the 93rd Brigade, Shamil Krutkow, reads:
+                            <br /><br />
+                            “The officers and staff of military unit A1302 are grateful for the assistance you have
+                            provided. Without a doubt, the civil position you take and your hard and selfless work
+                            are a substantial contribution to the fighting capacity of the Ukrainian Armed Forces.”
                         </p>
                     </div>
                 </div>
@@ -263,7 +268,7 @@ function PastProjects() {
                     <div className="project-text">
                         <div className="project-date">March 2025</div>
                         <p>
-                            A truck with spare engine was delivered to the 72 Mechanized Brigade.
+                            A truck with a spare engine was delivered to the 72nd Mechanized Brigade.
                         </p>
                     </div>
                 </div>
@@ -276,7 +281,10 @@ function PastProjects() {
                     <div className="project-text">
                         <div className="project-date">February 2025</div>
                         <p>
-                            This Nissan X-Trail is ready to begin its service with the 33rd Mechanized Brigade in one of the most difficult battle zones near Pokrovsk. Officers noted the vehicle’s good technical condition. The car was delivered by our partner, Techno Varta, in February 2025.                        </p>
+                            This Nissan X-Trail was delivered to the 33rd Mechanized Brigade, in one of the most
+                            difficult battle zones near Pokrovsk. Officers noted the vehicle’s good technical
+                            condition. The car was delivered by our partner Techno Varta.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -288,7 +296,7 @@ function PastProjects() {
                     <div className="project-text">
                         <div className="project-date">May 2024</div>
                         <p>
-                            We provided a medevac pickup truck and supplies for a new field medicine unit.
+                            Ukraine-Hilfe e.V. provided a medevac pickup truck and supplies for a new field medicine unit.
                         </p>
                     </div>
                 </div>
@@ -301,7 +309,7 @@ function PastProjects() {
                     <div className="project-text">
                         <div className="project-date">December 2024</div>
                         <p>
-                            The truck pictured on the left was delivered to 21 Separate Cavalry Brigade by Techno Varta.
+                            The Nissan vehicle (left) was delivered to the 21st Separate Cavalry Brigade by our partner Techno Varta.
                         </p>
                     </div>
                 </div>

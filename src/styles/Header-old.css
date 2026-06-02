@@ -1,0 +1,579 @@
+:root {
+    --lightestgray: #c2c4c5;
+    --lightgray: #686D76;
+    --darkgray: #373A40;
+    --white: #EEEEEE;
+    --blue: #00367c;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+/* header flush to edges */
+.header {
+    padding: 0;
+    /* was: 0 40px */
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: var(--blue);
+    padding-right: 40px;
+    padding-right: 40px;
+    height: 100px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.menu-item {
+    position: relative;
+}
+
+
+
+.menu-list {
+    list-style: none;
+    /* Remove Bullet point style for list */
+    display: flex;
+    /* ← horizontal layout */
+    gap: 16px;
+    /* space between items */
+    align-items: center;
+    /* vertical alignment */
+}
+
+.menu-link {
+    text-decoration: none;
+    color: var(--white);
+    padding: 12px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.logo-container {
+    display: flex;
+    gap: 0px;
+    gap: 0px;
+    flex-shrink: 0;
+    z-index: 2;
+    margin-left: 0px;
+    /* Increased from 60px */
+    margin-right: auto;
+    /* Pushes title to center */
+    padding: 10px;
+    padding: 10px;
+}
+
+.logo-text {
+    color: var(--white);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 20px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: var(--white);
+}
+
+h2 {
+    text-align: center;
+    color: var(--white);
+}
+
+h3 {
+    padding-top: 50px;
+    text-align: center;
+    color: var(--white);
+}
+
+a {
+    text-align: center;
+    color: var(--white);
+}
+
+ol {
+    color: var(--white);
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0.5)), url("ukraineprotest.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.844), rgba(0, 0, 0, 0.5)), url("ukraineprotest.webp");
+    background-color: #cccccc;
+}
+
+p {
+    color: var(--white);
+}
+
+/* Donation box */
+
+.donation-box {
+    flex: 1;
+    padding: 20px;
+    background: rgba(249, 248, 255, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.donation-box h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.donation-box h3 {
+    padding-top: 0px;
+    font-size: 1.3rem;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.donation-box p {
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #000000;
+    font-size: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.paypal-button {
+
+    display: inline-block;
+    background: #fcd26e;
+    /* PayPal yellow */
+    color: #111;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 18px 36px;
+    border-radius: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
+
+.paypal-button:hover {
+    filter: brightness(0.95);
+}
+
+/* About page box layout */
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 40px 40px auto 40px;
+    max-width: 2000px;
+    text-align: center;
+}
+
+.about-box {
+    flex: 1;
+    padding: 20px;
+    background: rgba(249, 248, 255, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.donate-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 40px 40px auto 40px;
+    max-width: 2000px;
+    text-align: center;
+}
+
+.donate-box {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgba(249, 248, 255, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-box p {
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #000000;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.about-box h3 {
+    padding-top: 0px;
+    font-size: 1.3rem;
+    font-size: 1.3rem;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.about-box li {
+    font-size: 0.92rem;
+    color: #000000;
+    text-align: left;
+}
+
+.about-box li {
+    font-size: 0.92rem;
+    color: #000000;
+    text-align: left;
+}
+
+.about-box a:link {
+    color: #002afd;
+}
+
+.about-box a:visited {
+    color: #350097;
+}
+
+.donate-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.donate-img-wrapper {
+    flex: 1 1 250px;
+    max-width: 300px;
+    aspect-ratio: 5 / 3;
+    /* same ratio for all */
+    overflow: hidden;
+}
+
+.donate-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* keeps correct aspect ratio */
+}
+
+.youtube-img-wrapper {
+    width: 100%;
+}
+
+.youtube-img-wrapper img {
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    /* keeps correct aspect ratio */
+}
+
+.donation-container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    /* no horizontal padding */
+    padding-top: 30px;
+    /* keep vertical spacing */
+    padding-bottom: 30px;
+    flex-direction: row;
+    /* ← grow sideways first */
+    flex-wrap: wrap;
+    /* ← only wrap when needed */
+    justify-content: center;
+    /* center the cards */
+    align-items: flex-start;
+}
+
+.paypal-box {
+    text-align: center !important;
+    flex: 1;
+    /* 1/3 width */
+}
+
+.bank-box {
+    flex: 2;
+    /* 2/3 width */
+    text-align: left !important;
+}
+
+.bank-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* two equal columns */
+    gap: 0px;
+    margin-top: 10px;
+}
+
+.bank-column p {
+    margin: 0;
+}
+
+.bank-column p em {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    display: block;
+    text-align: center;
+}
+
+/* Responsive stack on mobile */
+@media (max-width: 360px) {
+
+    .flowers {
+        opacity: 0.5;
+        height: 120px;
+        bottom: -20px;
+    }
+
+    .hero-image {
+        opacity: 0;
+    }
+
+    .home {
+        padding: 16px;
+    }
+
+    .donation-container {
+        flex-direction: column;
+    }
+
+    .bank-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .donation-box {
+        width: 100%;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .about-box {
+        width: 100% !important;
+    }
+
+    .project-box {
+        flex-direction: column;
+    }
+
+    .about-images {
+        grid-template-columns: 1fr;
+    }
+
+    .about-images img {
+        height: 220px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .paypal-button img {
+        max-width: 180px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.button-icon {
+    width: 100px;
+    /* change this to any size you want */
+    height: 28px;
+    /* keep square unless you want distortion */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.hero {
+    position: relative;
+    height: 250px;
+    background: black;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-center {
+    position: relative;
+    display: inline-block;
+    /* shrink-wrap to content width */
+}
+
+.hero-text {
+    position: relative;
+    text-align: center;
+    max-width: 700px;
+    padding: 0 2rem;
+    z-index: 3;
+    margin-top: 5px;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.flowers {
+    position: absolute;
+    bottom: -10px;
+    height: 220px;
+    z-index: 2;
+}
+
+.flowers.left {
+    right: 100%;
+    margin-right: -100px;
+    /* closer/farther: adjust this */
+}
+
+.flowers.right {
+    left: 100%;
+    margin-left: -100px;
+    /* closer/farther: adjust this */
+}
+
+.hero-images {
+    flex-direction: row;
+}
+
+.home {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-images {
+    outline: 4px solid black;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+
+    width: 100%;
+    max-width: 100%;
+    overflow: clip;
+}
+
+.about-images img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-image {
+    width: 200px;
+    max-width: 80%;
+    height: auto;
+}
+
+.hero-flowers {
+    width: 300px;
+    max-width: 80%;
+    height: auto;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 40px;
+    max-width: 2000px;
+    text-align: center;
+}
+
+.project-box {
+    display: flex;
+    gap: 24px;
+    background: rgba(249, 248, 255, 0.7);
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.project-media {
+    flex: 1;
+    min-width: 0;
+}
+
+.project-text {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.project-text p {
+    color: #000000;
+}
+
+.project-text h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Date styling for PastProjects (prevents awkward "floating h3") */
+.project-date {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.65);
+    padding-left: 0.75rem;
+    border-left: 3px solid rgba(0, 0, 0, 0.25);
+    margin: 0 0 0.5rem 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}

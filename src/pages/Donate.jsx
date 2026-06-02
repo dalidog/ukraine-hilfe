@@ -10,7 +10,6 @@ function Donate() {
             <div className="about-container">
                 <div className="about-box">
                     <h3>HUMANITARIAN AID</h3>
-                    <br></br>
                     <p> Approximately 20% of Ukraine is under Russian occupation (1). The border of the occupied territory, however, is not  well-defined. — the warzone is hundreds of miles wide. Tens of thousands of Ukrainians are trapped due to daily shelling, with many unable to leave their homes for  financial and medical complications (9, 10). Those surviving in the gray zones report the collapse of cities from targeted airstrikes on social infrastructures and hospitals, deprivation of communication, and daily loss of life from shelling and lack of medical aid (8, 10, 11).
                         <br></br><br></br>
                         While donations of humanitarian aid continuously flow into Ukraine from all over the world, it’s an incredible challenge to bring it to those who need it most. The primary complication has been Russia’s military using drones to target and destroy  humanitarian corridors (2, 3) and any moving vehicle not identified as Russian, (i.e. ambulances (4), civilian cars (5), and cyclists (6, 7)). This makes transporting resources to war-torn areas and evacuating injured civilians difficult and dangerous.
